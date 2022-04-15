@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola</title>
+</head>
+<body style="background-color: black; text-align: center; color: aliceblue;">
+
+    <a href="">
+        <button style="background-color: beige; width: 100px; height: 25px; font-size: 15px;">Nuevo Capi</button>
+    </a>
+    
+    <br>
+
+    <img id="capi" src="a" alt="capi">
+
+    <script>
+        var capi = [
+        "https://images.unsplash.com/photo-1525434280327-e525e03f17ef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "https://images.unsplash.com/photo-1595017013941-cab3d4c8d02f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1604890532358-4029426b27af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://images.unsplash.com/photo-1633123784883-9cc9ba6d8c9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1604890532411-cb935dc9133c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+        "https://images.unsplash.com/photo-1645008404465-82d16e726baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "https://images.unsplash.com/photo-1557431177-36141475c676?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1598315805844-d15164294b16?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "https://images.unsplash.com/photo-1577049205905-e4d91edc0a00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "https://images.unsplash.com/photo-1624329809999-a2a576b0f690?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "https://images.unsplash.com/photo-1577049207999-5a9745cdecb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "https://images.unsplash.com/photo-1647449806052-bd1042dd05f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        ]
+        var rnd = Math.floor(Math.random() * 11) + 1
+        var capiSelected = capi[rnd]
+        document.getElementById("capi").src = capiSelected
+        
+    </script>
+
+    
+
+</body>
+</html>
