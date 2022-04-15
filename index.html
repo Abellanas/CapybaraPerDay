@@ -15,6 +15,7 @@
     <br>
 
     <img id="capi" src="a" alt="capi">
+    <div id="nombre">Texto</div>
 
     <script>
         var capi = [
@@ -31,10 +32,12 @@
         "https://images.unsplash.com/photo-1577049207999-5a9745cdecb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "https://images.unsplash.com/photo-1647449806052-bd1042dd05f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         ]
+        var nombres = [ "Aarón ","Absalón ","Abundio ","Acacio","Achiuta","Acisclo ","Adalberto","Adán ","Adolfo","Adrià","Adrián","Adriel ","Adrista","Afrodisio","Agamenón ","Agapito","Agastia","Agatoclio","Aghásura","Agni","Agustín","Aitor","Aladino","Alarico ","Albano ","Alberto","Albino ","Alcibíades ","Alcide","Alcides","Aldo","Alec","Alejandro ","Alejo ","Alfonso","Alfredo ","Álvaro)","Ambrosio ","Amenhotep","Américo","Amílcar ","Amit","Amós ","Amsha","Anacleto ","Ananías ","Anastasio ","Anatolio ","Ander ","Andhaka","Andoni","Andreas","Andrei","Andrés","Andrónico","Ángel ","Aníbal ","Aniceto ","Anselmo","Antenor ","Antoni","Antonino","Antonio","Apolinar ","Apolo ","Apolonio ","Aquiles ","Argimiro","Ariel ","Aristarco ","Arístides ","Aristóteles ","Armand","Armando","Arnaldo","Arnulfo","Arquímedes ","Arsenio ","Arturo","Ashuin","Atanasio ","Atsushi","Aubrey","Augurio ","Augusto ","Aureliano ","Aurelio","Avelino","Axel","Balbino ","Baldomero ","Balduino","Baltasar ","Banásura","Bartolomé ","Basilio ","Benedicto","Benigno ","Benjamín ","Bento","Berengario","Bernabé ","Bernardino ","Bernardo ","Bernhard","Bernie","Bhima","Bhishmá","Bogusław","Boleslao","Boni ","Bonifacio ","Borja","Borja ","Bosco ","Brian ","Bruno ","Calixto ","Camilo","Cancio ","Cándido ","Canek ","Canuto ","Carlos","Carmelo ","Carol ","Casimiro","Casiodoro ","Casto ","César" ]
         var rnd = Math.floor(Math.random() * 11) + 1
+        var rnd2 = Math.floor(Math.random() * 129) + 1
         var capiSelected = capi[rnd]
         document.getElementById("capi").src = capiSelected
-        
+        document.getElementById("nombre").innerHTML = nombres[rnd2]
     </script>
 
     
